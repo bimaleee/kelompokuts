@@ -9,10 +9,25 @@ body {
   background-image: url(assets/bg.png);
   background-size: cover;
   background-position: center;
-  filter: brightness(90%);
+  filter: brightness(80%);
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  font-size: 60px;
+  margin-top: 330px;
+  text-align: center;
+  color:  rgb(245, 255, 109);
+}
+#header p {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-top: -50px;
+  color: #ffffff;
 }
 header {
-  background-color: #333;
+  background-color: #717171;
   color: #000000;
   padding: 20px;
   display: flex;
@@ -46,7 +61,7 @@ nav ul li a::after {
   position: absolute;
   left: 0;
   bottom: -6px;
-  transition: width 0.3s ease; /* Efek transisi untuk lebar garis bawah */
+  transition: width 0.3s ease;
 }
 
 .container {
